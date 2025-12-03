@@ -1,0 +1,31 @@
+/* Thiết lập Font chữ */
+body {
+    font-family: "Lato", sans-serif;
+}
+
+/* Các lớp CSS bổ sung cho giao diện Fedor Gorst */
+.bg-billiards {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Định dạng cho Audio Player */
+audio {
+    width: 80%;
+    margin-top: 10px;
+    border-radius: 20px;
+    background-color: #f1f1f1;
+}
+
+/* Hiệu ứng hover cho ảnh Gallery */
+.w3-hover-opacity:hover {
+    opacity: 0.60;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+/* Đảm bảo ảnh luôn responsive */
+img {
+    max-width: 100%;
+    height: auto;
+}
